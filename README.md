@@ -17,6 +17,10 @@ para revisar esa compilación localmente.
 La página está en `src/pages/index.astro`, los estilos en `src/styles/`
 y las imágenes en `public/images/`.
 
-Para publicar en GitHub Pages, usá GitHub Actions como fuente y publicá
-la salida de `npm run build`. El dominio personalizado se conserva en
-`public/CNAME`.
+En GitHub, elegí **GitHub Actions** en **Settings → Pages → Build and
+deployment → Source**. El workflow compila Astro y publica `dist/` con
+cada push a `main`. Si ya subiste el cambio, podés ejecutarlo desde
+**Actions → Deploy Astro to GitHub Pages → Run workflow**.
+
+En **Settings → Pages → Custom domain** debe figurar
+`pimpumpamsolucionescreativas.com.ar`.
