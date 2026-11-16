@@ -30,7 +30,50 @@ import '../styles/global.css'
 <section class="order" id="pedidos"><div class="wrap order-grid"><div><p class="eyebrow">PEDIDOS Y PRESUPUESTOS</p><h2>Prepará tu pedido</h2><p>Somos una empresa familiar de Mina Clavero. Trabajamos con proveedores locales para crear regalos personalizados para empresas, marcas y eventos.</p></div><div><details open><summary>Personalización</summary><p>Compartinos tu logo y los elementos gráficos que querés incorporar. Personalizamos los textiles de algodón con DTF y las tazas y esferas con DTF UV.</p></details><details><summary>Reserva y pago</summary><p>El pedido se confirma con una seña. El saldo se abona en la entrega. Los productos están sujetos a disponibilidad de stock e insumos.</p></details><details><summary>Producción y entrega</summary><p>Recomendamos pedir con al menos 15 días de anticipación. El plazo depende de la cantidad y de la propuesta. Coordinamos la entrega al confirmar el pedido.</p></details></div></div>
 </section>
 </main>
-<footer id="contacto"><div class="wrap contact"><div><p class="eyebrow">PIM PUM PAM · MINA CLAVERO, CÓRDOBA</p><h2>Hablemos de tu regalo</h2><a class="button" href="https://wa.me/5493515582295">Escribinos por WhatsApp ↗</a></div><div class="channels"><a href="mailto:pppsolucionescreativas@gmail.com">pppsolucionescreativas@gmail.com</a><a href="https://www.instagram.com/pppsolucionescreativas/">@pppsolucionescreativas</a></div></div>
+<footer id="contacto">
+  <div class="wrap contact">
+    <div>
+      <p class="eyebrow">PIM PUM PAM · MINA CLAVERO, CÓRDOBA</p>
+      <h2>Hablemos de tu regalo</h2>
+      <a class="button" href="https://wa.me/5493515582295">Escribinos por WhatsApp ↗</a>
+    </div>
+    <div class="channels">
+      <a href="mailto:pppsolucionescreativas@gmail.com">
+        <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="5" width="18" height="14" rx="2" />
+          <path d="m4 7 8 6 8-6" />
+        </svg>
+        <span>pppsolucionescreativas@gmail.com</span>
+      </a>
+      <a href="https://www.instagram.com/pppsolucionescreativas/">
+        <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+          <rect x="3" y="3" width="18" height="18" rx="5" />
+          <circle cx="12" cy="12" r="4" />
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+        </svg>
+        <span>@pppsolucionescreativas</span>
+      </a>
+    </div>
+  </div>
 </footer>
 </body>
 </html>
+
+<style>
+  .channels a {
+    display: grid;
+    grid-template-columns: 20px minmax(0, 1fr);
+    align-items: start;
+    column-gap: 8px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+  .channels svg {
+    display: block;
+  }
+
+  .channels a:hover {
+    opacity: .8;
+  }
+</style>
