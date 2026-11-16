@@ -1,7 +1,7 @@
 # Pim Pum Pam
 
 Sitio web de Pim Pum Pam Soluciones Creativas, con su catálogo de regalos
-personalizados y canales de contacto. Desarrollado en Astro.
+personalizados y canales de contacto. Desarrollado en Astro!.
 
 `npm install` instala Node.js 24 dentro del proyecto. Los comandos de Astro
 usan esa versión local.
